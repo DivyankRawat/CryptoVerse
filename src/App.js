@@ -19,7 +19,7 @@ function App() {
             </Routes>
             <br />
             <br />
-            <p> <b>NOTE</b>: I wanted to add more data about cryptocurrencies like exchange, detals and their history price but the api only had limited features available for free use.</p>
+            <p> <b>NOTE</b>: I want to add more data about crypto currencies like exchange, their detailed info, their history prices but these api only have limited features available for free use.</p>
           </div>
         </Layout>
         <div className="footer">
