@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Button, Menu, Typography, Avatar } from 'antd';
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons'
+import { Menu, Typography, Avatar } from 'antd';
+import { HomeOutlined, BulbOutlined, FundOutlined } from '@ant-design/icons'
 import icon from '../images/logo.png'
 
 function Navbar() {
