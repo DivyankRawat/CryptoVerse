@@ -14,11 +14,12 @@ function App() {
           <div className='routes'>
             <Routes>
               <Route path='/' element={<Homepage />} />
-              <Route path='/exchanges' element={<Exchanges />} />
               <Route path='/cryptocurrencies' element={<Cryptocurrencies />} />
-              <Route path='/crypto/:coinId' element={<CryptoDetails />} />
               <Route path='/news' element={<News />} />
             </Routes>
+            <br />
+            <br />
+            <p> <b>NOTE</b>: I wanted to add more data about cryptocurrencies like exchange, detals and their history price but the api only had limited features available for free use.</p>
           </div>
         </Layout>
         <div className="footer">
@@ -30,7 +31,6 @@ function App() {
           </Typography.Title>
           <Space>
             <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
             <Link to="/news">News</Link>
           </Space>
         </div>
